@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #cf8d42, #764ba2);
+  overflow-y: hidden;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.app-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.facts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.fact-item {
+  background: #f4f6fb;
+  margin-bottom: 12px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #444;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.fact-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
